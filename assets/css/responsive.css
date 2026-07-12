@@ -27,7 +27,6 @@
   .footer__brand, .footer__links, .footer__socials { justify-content: center; }
 }
 
-/* Laptop & Mobile Layout Adjustments (<= 1024px) */
   .footer__inner { 
     grid-template-columns: 1fr; 
     text-align: center; 
