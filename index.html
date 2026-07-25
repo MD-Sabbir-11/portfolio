@@ -213,7 +213,7 @@
             <div class="hero__terminal">
               <div class="hero__terminal-top">
                 <span></span><span></span><span></span>
-                <p>~/hossainmdbsabbir — zsh</p>
+                <p>~/hossainmdbsabbir — mdb</p>
               </div>
               <pre class="hero__terminal-body"><span class="tk-c">$</span> whoami
 <span class="tk-s">md_sabbir_hossain</span>
@@ -222,8 +222,8 @@
 {
   <span class="tk-k">"role"</span>: <span class="tk-s">"Software Engineer"</span>,
   <span class="tk-k">"focus"</span>: [<span class="tk-s">"frontend"</span>, <span class="tk-s">"systems"</span>],
-  <span class="tk-k">"cgpa"</span>: <span class="tk-n">9.1</span>,
-  <span class="tk-k">"stack"</span>: <span class="tk-s">"TS · React · Go · PostgreSQL"</span>,
+  <span class="tk-k">"cgpa"</span>: <span class="tk-n">3.42</span>,
+  <span class="tk-k">"stack"</span>: <span class="tk-s">"TS · React · JAVA · PostgreSQL"</span>,
   <span class="tk-k">"status"</span>: <span class="tk-s">"open to internships"</span>
 }
 
@@ -235,7 +235,7 @@
             <strong>3.42</strong><span>CGPA</span>
           </div>
           <div class="hero__badge hero__badge--b">
-            <strong>500+</strong><span>DSA problems</span>
+            <strong>200+</strong><span>DSA problems</span>
           </div>
         </div>
       </div>
@@ -283,7 +283,7 @@
             <ul class="about__grid">
               <li>
                 <span class="about__k">Focus</span>
-                <span class="about__v">Frontend · Systems · DX</span>
+                <span class="about__v">Frontend · Backend · Systems</span>
               </li>
               <li>
                 <span class="about__k">Location</span>
@@ -291,11 +291,11 @@
               </li>
               <li>
                 <span class="about__k">Degree</span>
-                <span class="about__v">B.Sc. CSE, 2036-ongoing</span>
+                <span class="about__v">B.Sc. CSE, 2026-ongoing</span>
               </li>
               <li>
                 <span class="about__k">Interests</span>
-                <span class="about__v">Databases · Algorithms · UI</span>
+                <span class="about__v">Databases · Algorithms · UI · Backend</span>
               </li>
             </ul>
 
@@ -344,9 +344,9 @@
             </header>
             <ul class="skill-card__bars">
               <li><span>TypeScript</span><i data-level="92"></i></li>
-              <li><span>Python</span><i data-level="88"></i></li>
-              <li><span>C++</span><i data-level="85"></i></li>
-              <li><span>Go</span><i data-level="70"></i></li>
+              <li><span>JAVA</span><i data-level="80"></i></li>
+              <li><span>C</span><i data-level="85"></i></li>
+              <li><span>JavaScript</span><i data-level="88"></i></li>
             </ul>
           </article>
 
@@ -385,12 +385,12 @@
             </header>
             <div class="skill-card__badges">
               <span>Node.js</span><span>Express</span><span>FastAPI</span>
-              <span>REST</span><span>GraphQL</span>
+              <span>REST</span><span>MongoDB</span>
             </div>
             <ul class="skill-card__bars">
-              <li><span>Node &amp; APIs</span><i data-level="85"></i></li>
-              <li><span>Auth &amp; sessions</span><i data-level="78"></i></li>
-              <li><span>Testing</span><i data-level="75"></i></li>
+              <li><span>Node &amp; APIs</span><i data-level="92"></i></li>
+              <li><span>Auth &amp; sessions</span><i data-level="90"></i></li>
+              <li><span>Testing</span><i data-level="95"></i></li>
             </ul>
           </article>
 
@@ -407,7 +407,7 @@
               <h3>Databases</h3>
             </header>
             <div class="skill-card__badges">
-              <span>PostgreSQL</span><span>MongoDB</span>
+              <span>Firebase Firestore</span><span>MongoDB</span>
               <span>Redis</span><span>SQLite</span>
             </div>
             <ul class="skill-card__bars">
@@ -431,8 +431,8 @@
               <span>Figma</span><span>Vitest</span><span>Playwright</span>
             </div>
             <ul class="skill-card__bars">
-              <li><span>DevX &amp; CI/CD</span><i data-level="80"></i></li>
-              <li><span>Design tools</span><i data-level="72"></i></li>
+              <li><span>DevX &amp; CI/CD</span><i data-level="90"></i></li>
+              <li><span>Design tools</span><i data-level="95"></i></li>
             </ul>
           </article>
 
@@ -475,10 +475,9 @@
         </header>
 
         <div class="projects">
-          <!-- PLACEHOLDER: replace image, title, links -->
           <article class="project" data-reveal>
-            <a class="project__media" href="#" aria-label="Open project: Nimbus Notes">
-              <img src="./assets/images/project-1.jpg" alt="Nimbus Notes — offline-first markdown editor" loading="lazy"
+            <a class="project__media" href="https://secretbird.vercel.app/" aria-label="Open project: SecretBird">
+              <img src="./assets/images/secretbird.jpg" alt="SecretBird — message encoder/decoder" loading="lazy"
                 width="800" height="500" />
             </a>
             <div class="project__body">
@@ -486,16 +485,17 @@
                 <span class="tag tag--accent">Featured</span>
                 <span class="tag">2025</span>
               </div>
-              <h3 class="project__title">Nimbus Notes</h3>
+              <h3 class="project__title">SecretBird</h3>
               <p class="project__desc">
-                Offline-first markdown editor with a CRDT sync engine, keyboard-first
-                UX, and a plugin API. Built for writers who live in their editor.
+                A message encoder/decoder with a glassmorphic, animated UI — gradient-keyed 
+                actions, ripple feedback, and gesture-smooth page transitions. Built for people 
+                who want their secrets to look as good as they're kept.
               </p>
               <ul class="project__stack">
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>IndexedDB</li>
-                <li>Yjs</li>
+                <li>JavaScript</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Vercel</li>
               </ul>
               <div class="project__actions">
                 <a href="#" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">
@@ -505,7 +505,7 @@
                   </svg>
                   Code
                 </a>
-                <a href="#" target="_blank" rel="noopener" class="btn btn--primary btn--sm">
+                <a href="https://secretbird.vercel.app/" target="_blank" rel="noopener" class="btn btn--primary btn--sm">
                   Live
                   <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
                     <path d="M7 17L17 7M9 7h8v8" />
@@ -516,31 +516,42 @@
           </article>
 
           <article class="project" data-reveal>
-            <a class="project__media" href="#" aria-label="Open project: PulseGraph">
-              <img src="./assets/images/project-2.jpg" alt="PulseGraph — real-time analytics dashboard" loading="lazy"
-                width="800" height="500" />
-            </a>
-            <div class="project__body">
-              <div class="project__meta">
-                <span class="tag">2025</span>
-              </div>
-              <h3 class="project__title">PulseGraph</h3>
-              <p class="project__desc">
-                Real-time analytics dashboard with a custom WebSocket transport
-                and virtualised charts. Renders 100k data points at 60fps.
-              </p>
-              <ul class="project__stack">
-                <li>React</li>
-                <li>Go</li>
-                <li>WebSockets</li>
-                <li>Canvas</li>
-              </ul>
-              <div class="project__actions">
-                <a href="#" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Code</a>
-                <a href="#" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Live</a>
-              </div>
-            </div>
-          </article>
+  <a class="project__media" href="#" aria-label="Open project: FamTies">
+    <img
+      src="./assets/images/famties.jpg"
+      alt="FamTies — Family Connection & Communication Platform"
+      loading="lazy"
+      width="800"
+      height="500"
+    />
+  </a>
+
+  <div class="project__body">
+    <div class="project__meta">
+      <span class="tag">2026</span>
+    </div>
+
+    <h3 class="project__title">FamTies</h3>
+
+    <p class="project__desc">
+      A modern family communication platform designed to strengthen relationships
+      through shared memories, secure messaging, event planning, and collaborative
+      family management with an intuitive user experience.
+    </p>
+
+    <ul class="project__stack">
+      <li>React</li>
+      <li>Node.js</li>
+      <li>Express</li>
+      <li>MongoDB</li>
+    </ul>
+
+    <div class="project__actions">
+      <a href="#" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Code</a>
+      <a href="#" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Live</a>
+    </div>
+  </div>
+</article>
 
           <article class="project" data-reveal>
             <a class="project__media" href="#" aria-label="Open project: Cortex CLI">
@@ -756,7 +767,7 @@
           </article>
           <article class="ach__item" data-reveal>
             <div class="ach__num">02</div>
-            <h3>Smart India Hackathon — Winner</h3>
+            <h3>Smart BD Hackathon — Winner</h3>
             <p>Built an accessible public-transport tracker over 36 hours.</p>
           </article>
           <article class="ach__item" data-reveal>
